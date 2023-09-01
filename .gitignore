@@ -749,6 +749,7 @@ dkms.conf
 [Ss]cripts
 pyvenv.cfg
 .venv
+/HCP-Diffusion
 pip-selfcheck.json
 
 ### LibreOffice template
@@ -995,6 +996,9 @@ celerybeat.pid
 .env
 .venv
 /env/
+HCP-Diffusion/
+.HCP-Diffusion
+/HCP-Diffusion/
 venv/
 ENV/
 env.bak/
@@ -1185,3 +1189,4 @@ fabric.properties
 /ckpts
 /prompt_dataset
 /prompt_tuning_template
+.gitignore
